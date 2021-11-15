@@ -1,0 +1,39 @@
+.container {
+  padding: 0 4rem;
+}
+.selectionCardOuterWrapper {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.selectionCardWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border-radius: 22px;
+  background-color: rgba(110, 110, 122, 0.05);
+  margin-bottom: 1.25rem;
+  min-height: 10rem;
+  .cardTitle {
+    font-size: 1.125rem;
+    letter-spacing: -0.69px;
+    color: #000000;
+    margin-bottom: 1.25rem;
+    margin-left: 3.5rem;
+  }
+  .cardDetailsSection {
+    display: flex;
+    .cardTypeImage {
+      width: 2.188rem;
+      height: 2.313rem;
+      margin: 0 1.563rem 0.813rem 0;
+    }
+    .cardTypeDetails {
+      width: 100%;
+      font-size: 0.875rem;
+      letter-spacing: -0.5px;
+      margin-bottom: 0;
+      color: rgba(110, 110, 122, 0.8);
+    }
+  }
+}
